@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+:root {
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, Arial;
+  background-color: #213547;
+  color: white;
+}
+
+.foto-rosto {
+  border-radius: 50%;
+  height: 400px;
+}
