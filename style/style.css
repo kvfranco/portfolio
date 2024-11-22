@@ -32,12 +32,12 @@ p {
 }
 
 a {
-  color: #646cff;
+  color: #11b1f0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4048e6;
+  color: #2897c4;
 }
 
 /* Cabeçalho */
@@ -61,6 +61,7 @@ header button {
 
 header img {
   height: 40px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -87,6 +88,7 @@ header img {
 }
 
 .foto-rosto {
+  width: 300px;
   height: 300px;
   border-radius: 50%;
 }
@@ -111,5 +113,6 @@ header img {
   background-color: white;
   padding: 4px;
   height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
