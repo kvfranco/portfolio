@@ -6,12 +6,12 @@ function trocarCorDeFundo() {
     background.style.backgroundColor = '#ffffff';
     background.style.color = '#213547';
     background.className = 'modo-claro';
-    iconeTrocarFundo.src = './assets/icones/light-mode-icon.svg';
-    iconeSite.src = './assets/icones/letra-k-escura.svg';
+    iconeTrocarFundo.src = './public/icones/light-mode-icon.svg';
+    iconeSite.src = './public/icones/letra-k-escura.svg';
     return;
   }
-  iconeTrocarFundo.src = './assets/icones/dark-mode-icon.svg';
-  iconeSite.src = './assets/icones/letra-k-claro.svg'
+  iconeTrocarFundo.src = './public/icones/dark-mode-icon.svg';
+  iconeSite.src = './public/icones/letra-k-claro.svg'
   background.style.backgroundColor = '#213547';
   background.style.color = '#ffffff';
   background.className = 'modo-escuro';
