@@ -65,6 +65,17 @@ header img {
   cursor: pointer;
 }
 
+header p {
+  margin: auto;
+  font-size: 0.9em;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
 /* Seção -- Apresentação */
 
 @media (max-width: 1024px){

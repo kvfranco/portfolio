@@ -16,3 +16,24 @@ function trocarCorDeFundo() {
   background.style.color = '#ffffff';
   background.className = 'modo-escuro';
 }
+
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const response = await fetch(window.location.href, { method: 'HEAD' });
+    const instanceID = response.headers.get('X-Instance-ID');
+    document.getElementById('instancia-info').innerHTML = instanceID
+      ? `&#x1F310; Instância: ${instanceID}`
+      : 'Não foi possível identificar a instância';
+  } catch (error) {
+    document.getElementById('instancia-info').innerHTML = 'Erro ao obter informações da instância';
+  }
+});
+
+window.addEventListener('scroll', () => {
+  const paragrafoInstancia = document.querySelector('.instancia');
+  if (window.scrollY > 10) {
+    paragrafoContemClasse = paragrafoInstancia.classList.contains('hidden');
+    return paragrafoContemClasse || paragrafoInstancia.classList.add('hidden');
+  }
+  paragrafoInstancia.classList.remove('hidden');
+});
