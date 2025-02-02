@@ -1,0 +1,20 @@
+.p {
+  margin: auto;
+  font-size: 0.9em;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  animation: MoveDown 1.2s ease-out;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes MoveDown {
+  0% {
+    transform: translate(0px, -100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

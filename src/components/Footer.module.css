@@ -1,0 +1,41 @@
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #43a4d4;
+  gap: 20px;
+  padding: 40px;
+  color: rgba(0, 0, 0, 0.99);
+}
+
+.redes-sociais > * {
+  animation: FadeInScale 1.5s ease-out;
+}
+
+.redes-sociais-links {
+  display: flex;
+  gap: 30px;
+}
+
+.redes-sociais-links img {
+  background-color: white;
+  padding: 4px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+@keyframes FadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.75;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

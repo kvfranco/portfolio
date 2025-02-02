@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px;
+  z-index: 100;
+}
+
+.header button {
+  border: none;
+  background-color: transparent;
+}
+
+.header img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
