@@ -42,18 +42,18 @@ p {
 }
 
 a {
-  color: #63CEF8;
-  text-decoration: none;
+  color: #1ac6ff;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #ACE6FB;
+  color: #00aeff;
 }
 
 .light a {
-  color: #1A34FF;
+  color: #0011ff;
 }
 
 .light a:hover {
-  color: #0019D6;
+  color: #0064d6;
 }

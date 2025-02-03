@@ -31,8 +31,11 @@ export default function Instance() {
       {instance === "error" && "Não foi possível identificar a instância"}
       {instance && instance !== "error" && (
         <>
-          <abbr title={`Instância: ${instance} - hospedagem balanceada (Oracle 1, Oracle 2 e On-Premise)`}>
-            &#x1F310; Instância:
+          &#x1F310;
+          <abbr
+            title={`Instância: ${instance} | Hospedagem balanceada (Oracle 1, Oracle 2 e On-Premise)`}
+          >
+            Instância:
           </abbr>
           {` ${instance}`}
         </>
