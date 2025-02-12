@@ -17,12 +17,12 @@ export default function Projects() {
           </p>
           <menu style={{"--i": 3} as React.CSSProperties} className={styles["lista-projetos"]}>
             <li>
-              <a target="_blank" href="https://projeto1.kvfranco.com">
+              <a target="_blank" href="https://givemefoods.kvfranco.com">
                 Give Me Foods
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://projeto2.kvfranco.com">
+              <a target="_blank" href="https://mybrazil.kvfranco.com">
                 My Brazil
               </a>
             </li>

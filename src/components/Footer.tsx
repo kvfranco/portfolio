@@ -25,8 +25,7 @@ export default function Footer() {
             </a>
           </div>
           <p>
-            Caso queira entrar em contato, tenha uma proposta ou encontre algum
-            bug, sinta-se à vontade para entrar em contato. Estou à disposição!
+            Se tiver uma proposta, encontrar algum bug ou simplesmente quiser entrar em contato, fique à vontade. Estou à disposição!
           </p>
         </section>
       </footer>

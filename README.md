@@ -1,7 +1,25 @@
 # 🌟 My Portfolio | Meu Portfólio  
 
-This is the source code of my portfolio, built with **React** and **TypeScript**. The goal is to showcase my skills, projects, and professional experience interactively and efficiently.
+## 🇺🇸 English  
 
-Este é o código-fonte do meu portfólio, desenvolvido com **React** e **TypeScript**. O objetivo é apresentar minhas habilidades, projetos e experiência profissional de forma interativa e otimizada.
+Welcome to my portfolio! This project was built using **React** and **TypeScript** to showcase my skills, projects, and professional experience in an interactive and efficient way.  
 
-Link: https://kvfranco.com
+🔗 **Live version:** [kvfranco.com](https://kvfranco.com)  
+
+## 🚀 Technologies Used  
+- **React** ⚛️ - Component-based UI library  
+- **TypeScript** 🦕 - Static typing for improved safety  
+- **CSS Modules** 🎨 - Scoped styling for better maintainability  
+
+---  
+
+## 🇧🇷 Português  
+
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido com **React** e **TypeScript** para apresentar minhas habilidades, projetos e experiência profissional de forma interativa e otimizada.  
+
+🔗 **Versão ao vivo:** [kvfranco.com](https://kvfranco.com)  
+
+## 🚀 Tecnologias Utilizadas  
+- **React** ⚛️ - Biblioteca para construção de interfaces  
+- **TypeScript** 🦕 - Tipagem estática para maior segurança  
+- **CSS Modules** 🎨 - Estilização encapsulada para melhor manutenção
