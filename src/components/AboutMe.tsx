@@ -1,8 +1,11 @@
 import kevinPhotoJPG from '../assets/images/foto-rosto-kevin.jpg';
 import kevinPhotoWebP from '../assets/images/foto-rosto-kevin.webp';
 import styles from './AboutMe.module.css';
+import { preload } from 'react-dom';
 
 export default function AboutMe() {
+  preload(kevinPhotoWebP, { as: "image" });
+
   return (
     <section className={styles.apresentacao}>
       <div className={styles["apresentacao-texto"]}>
