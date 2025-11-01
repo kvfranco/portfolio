@@ -33,7 +33,7 @@ export default function Instance() {
         <>
           &#x1F310;
           <abbr
-            title={`Instância: ${instance} | Hospedagem balanceada (Oracle 1, Oracle 2 e On-Premise)`}
+            title={`Instância: ${instance} | Hospedagem balanceada (Cloud e On-Premise)`}
           >
             Instância:
           </abbr>
